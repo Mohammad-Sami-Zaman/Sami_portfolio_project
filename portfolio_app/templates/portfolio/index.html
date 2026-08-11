@@ -1,0 +1,1296 @@
+
+{% extends 'portfolio/base.html' %}
+{% load static %}
+
+
+{% block title %}
+Sami Zaman | Portfolio
+{% endblock %}
+
+
+{% block content %}
+
+<!-- ================= HOME ================= -->
+
+<section id="home" class="hero">
+
+    <div class="container py-5">
+
+        <div class="row align-items-center min-vh-75">
+
+            <!-- ================= LEFT SIDE ================= -->
+
+            <div class="col-lg-7 text-center text-lg-start">
+
+                <p class="text-primary fw-bold fs-5 mb-2">
+                    Hello, I'm
+                </p>
+
+                <h1 class="display-3 fw-bold">
+                    Mohammad Sami Zaman
+                </h1>
+
+                <h2 class="text-primary mt-3">
+                    Python & Django Backend Developer
+                </h2>
+
+                <p class="lead mt-4">
+                    Computer Science & Engineering graduate passionate
+                    about backend development, Django, Python and
+                    Machine Learning.
+                </p>
+
+
+                <!-- Main Buttons -->
+
+                <div class="mt-4">
+
+                    <a
+                        href="#projects"
+                        class="btn btn-primary me-2 mb-2"
+                    >
+                        View My Projects
+                    </a>
+
+                    <a
+                        href="#contact"
+                        class="btn btn-dark mb-2"
+                    >
+                        Contact Me
+                    </a>
+
+                </div>
+
+
+                <!-- CV Buttons -->
+
+                <div class="mt-2">
+
+                    <!-- View CV -->
+
+                    <a
+                        href="{% static 'portfolio/cv/Mohammad_Sami_Zaman_CV.pdf' %}"
+                        target="_blank"
+                        class="btn btn-success me-2 mb-2"
+                    >
+                        <i class="bi bi-file-earmark-person"></i>
+                        View CV
+                    </a>
+
+
+                    <!-- Download CV -->
+
+                    <a
+                        href="{% static 'portfolio/cv/Mohammad_Sami_Zaman_CV.pdf' %}"
+                        download="Mohammad_Sami_Zaman_CV.pdf"
+                        class="btn btn-dark mb-2"
+                    >
+                        <i class="bi bi-download"></i>
+                        Download CV
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= RIGHT SIDE ================= -->
+
+                <div class="col-lg-5 text-center mt-5 mt-lg-0">
+
+                    <div class="profile-image-container">
+
+                        <img
+                            src="{% static 'portfolio/images/sami-profile.jpg' %}"
+                            alt="Mohammad Sami Zaman"
+                            class="profile-image"
+                        >
+<!-- width="360" height="430" -->
+                    </div>
+
+                </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CAREER OBJECTIVE ================= -->
+<section id="career-objective" class="py-5 bg-light">
+
+    <div class="container">
+
+        <h2 class="text-center mb-4">
+            Career Objective
+        </h2>
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-9">
+
+                <div class="card shadow-sm border-0">
+
+                    <div class="card-body p-4 p-md-5">
+
+                        <p class="lead mb-0">
+                            Motivated and detail-oriented Computer Science and
+                            Engineering (CSE) graduate with strong expertise in
+                            Python and Django backend development, complemented
+                            by a solid foundation in software engineering,
+                            database management, and machine learning.
+                            Experienced in designing, developing, and deploying
+                            scalable web applications using modern development
+                            practices. Seeking an internship or entry-level
+                            software engineering position to leverage technical
+                            skills, contribute to innovative projects, and grow
+                            as a backend developer while delivering reliable
+                            and efficient software solutions.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="py-5 bg-light">
+
+    <div class="container">
+
+        <h2 class="text-center mb-4">
+            About Me
+        </h2>
+
+        <div class="row">
+
+            <div class="col-md-8 mx-auto">
+
+                <p>
+                    I am Mohammad Sami Zaman, a Computer Science and
+                    Engineering graduate with an interest in Python,
+                    Django backend development, databases and machine
+                    learning.
+                </p>
+
+                <p>
+                    I enjoy developing web applications using Django
+                    and Python and building practical software solutions
+                    for real-world problems.
+                </p>
+
+                <p>
+                    I am continuously improving my skills in backend
+                    development, REST APIs, databases and machine
+                    learning technologies.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= EDUCATION ================= -->
+<section id="education" class="py-5">
+
+    <div class="container">
+
+        <h2 class="text-center mb-5">
+            Education
+        </h2>
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-8">
+
+                <!-- BSc -->
+                <div class="card shadow-sm mb-4">
+
+                    <div class="card-body">
+
+                        <h4 class="card-title">
+                            Bachelor of Science in Computer Science & Engineering
+                        </h4>
+
+                        <h6 class="text-primary">
+                            BRAC University, Dhaka, Bangladesh
+                        </h6>
+
+                        <p class="mb-1">
+                            <strong>Degree:</strong>
+                            BSc in Computer Science & Engineering
+                        </p>
+
+                        <p class="mb-0">
+                            <strong>CGPA:</strong>
+                            3.16 / 4.00
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- HSC -->
+                <div class="card shadow-sm mb-4">
+
+                    <div class="card-body">
+
+                        <h4 class="card-title">
+                            Higher Secondary Certificate (HSC) - 2020
+                        </h4>
+
+                        <h6 class="text-primary">
+                            Hamdard Public College, Dhaka, Bangladesh
+                        </h6>
+
+                        <p class="mb-1">
+                            <strong>Group:</strong>
+                            Science
+                        </p>
+
+                        <p class="mb-0">
+                            <strong>GPA:</strong>
+                            5.00 / 5.00
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- SSC -->
+                <div class="card shadow-sm mb-4">
+
+                    <div class="card-body">
+
+                        <h4 class="card-title">
+                            Secondary School Certificate (SSC) - 2018
+                        </h4>
+
+                        <h6 class="text-primary">
+                            Government Laboratory High School,
+                            Dhaka, Bangladesh
+                        </h6>
+
+                        <p class="mb-1">
+                            <strong>Group:</strong>
+                            Science
+                        </p>
+
+                        <p class="mb-0">
+                            <strong>GPA:</strong>
+                            4.78 / 5.00
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="py-5 bg-light">
+
+    <div class="container">
+
+        <h2 class="text-center mb-5">
+            Technical Skills
+        </h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-6">
+
+                <div class="card h-100 shadow-sm">
+
+                    <div class="card-body">
+
+                        <h4>Programming</h4>
+
+                        <p>
+                            Python, C, C++, Java
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6">
+
+                <div class="card h-100 shadow-sm">
+
+                    <div class="card-body">
+
+                        <h4>Web Development</h4>
+
+                        <p>
+                            HTML, CSS, JavaScript, Django, Flask
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6">
+
+                <div class="card h-100 shadow-sm">
+
+                    <div class="card-body">
+
+                        <h4>Database</h4>
+
+                        <p>
+                            MySQL, SQLite, MongoDB
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6">
+
+                <div class="card h-100 shadow-sm">
+
+                    <div class="card-body">
+
+                        <h4>Machine Learning</h4>
+
+                        <p>
+                            TensorFlow, Keras, OpenCV, Scikit-learn
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     TECHNICAL SKILL GRAPH
+========================================================= -->
+
+<section id="skill-graph">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h2 class="section-title">
+                Developer Skill Matrix
+            </h2>
+
+            <p class="section-subtitle">
+                A visual representation of my core technical expertise
+            </p>
+
+        </div>
+
+
+        <div class="skill-graph-card">
+
+            <div class="row align-items-center">
+
+                <!-- RADAR GRAPH -->
+                <div class="col-lg-7">
+
+                    <div class="radar-container">
+
+                        <canvas id="skillRadar"></canvas>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PLAYER STATS -->
+                <div class="col-lg-5">
+
+                    <div class="player-stats">
+
+                        <div class="player-header">
+
+                            <div class="player-avatar">
+                                SZ
+                            </div>
+
+                            <div>
+
+                                <h3>
+                                    Mohammad Sami Zaman
+                                </h3>
+
+                                <span>
+                                    PYTHON DEVELOPER
+                                </span>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="stat-row">
+
+                            <span>Python</span>
+
+                            <strong>90</strong>
+
+                        </div>
+
+
+                        <div class="stat-row">
+
+                            <span>Django</span>
+
+                            <strong>88</strong>
+
+                        </div>
+
+
+                        <div class="stat-row">
+
+                            <span>Machine Learning</span>
+
+                            <strong>82</strong>
+
+                        </div>
+
+
+                        <div class="stat-row">
+
+                            <span>Database</span>
+
+                            <strong>85</strong>
+
+                        </div>
+
+
+                        <div class="stat-row">
+
+                            <span>Frontend</span>
+
+                            <strong>85</strong>
+
+                        </div>
+
+
+                        <div class="stat-row">
+
+                            <span>Git / GitHub</span>
+
+                            <strong>80</strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+<script>
+
+const ctx = document.getElementById('skillRadar');
+
+new Chart(ctx, {
+
+    type: 'radar',
+
+    data: {
+
+        labels: [
+            'Python',
+            'Django',
+            'Machine Learning',
+            'Database',
+            'Frontend',
+            'Git / GitHub'
+        ],
+
+        datasets: [
+
+            {
+                label: 'Technical Skills',
+
+                data: [
+                    90,
+                    88,
+                    82,
+                    85,
+                    85,
+                    80
+                ],
+
+                fill: true,
+
+                backgroundColor:
+                    'rgba(13, 110, 253, 0.20)',
+
+                borderColor:
+                    '#0d6efd',
+
+                pointBackgroundColor:
+                    '#0d6efd',
+
+                pointBorderColor:
+                    '#000000',
+
+                pointHoverBackgroundColor:
+                    '#ffffff',
+
+                pointHoverBorderColor:
+                    '#0d6efd',
+
+                borderWidth: 2,
+
+                pointRadius: 5,
+
+                pointHoverRadius: 8
+            }
+
+        ]
+
+    },
+
+    options: {
+
+        responsive: true,
+
+        maintainAspectRatio: true,
+
+        scales: {
+
+            r: {
+
+                min: 0,
+
+                max: 100,
+
+                beginAtZero: true,
+
+                ticks: {
+
+                    stepSize: 20,
+
+                    color: '#7290b2',
+
+                    backdropColor:
+                        'transparent'
+
+                },
+
+                grid: {
+
+                    color:
+                        'rgba(13, 110, 253, 0.25)'
+                },
+
+                angleLines: {
+
+                    color:
+                        'rgba(13, 110, 253, 0.25)'
+                },
+
+                pointLabels: {
+
+                    color:
+                        '#b9d8ff',
+
+                    font: {
+
+                        size: 13,
+
+                        weight: '600'
+                    }
+                }
+
+            }
+
+        },
+
+        plugins: {
+
+            legend: {
+
+                display: false
+
+            }
+
+        },
+
+        animation: {
+
+            duration: 2000,
+
+            easing: 'easeOutQuart'
+
+        }
+
+    }
+
+});
+
+</script>
+
+
+
+
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="py-5">
+
+   <div class="container">
+
+        <h1 class="section-title text-center">
+            My Projects
+        </h1>
+
+        <div class="row mt-5">
+
+
+            <!-- Project 1 -->
+
+            <div class="col-md-6 col-lg-4 mb-4">
+
+                <div class="project-card">
+
+                    <h3>
+                        Crop Pest & Disease Detection
+                    </h3>
+
+                    <p>
+                        CNN-based image classification system
+                        for crop pest and disease detection.
+                    </p>
+
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>TensorFlow</span>
+                        <span>Keras</span>
+                        <span>OpenCV</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Project 2 -->
+
+            <div class="col-md-6 col-lg-4 mb-4">
+
+                <div class="project-card">
+
+                    <h3>
+                        Email OTP Verification
+                    </h3>
+
+                    <p>
+                        Full-stack email OTP authentication system
+                        with expiry-based OTP validation.
+                    </p>
+
+                    <div class="tags">
+                        <span>JavaScript</span>
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>Nodemailer</span>
+                    </div>
+
+                    <a
+                        href="https://generate-otp-to-mail.vercel.app"
+                        target="_blank"
+                        class="btn btn-primary mt-3"
+                    >
+                        Live Demo
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Project 3 -->
+
+            <div class="col-md-6 col-lg-4 mb-4">
+
+                <div class="project-card">
+
+                    <h3>
+                        ManageCash Django
+                    </h3>
+
+                    <p>
+                        Personal cash management application
+                        for income, expenses and transaction history.
+                    </p>
+
+                    <div class="tags">
+                        <span>Django</span>
+                        <span>Python</span>
+                        <span>SQLite</span>
+                        <span>Bootstrap</span>
+                    </div>
+
+                    <a
+                        href="https://managecash-django.onrender.com"
+                        target="_blank"
+                        class="btn btn-primary mt-3"
+                    >
+                        Live Demo
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Project 4 -->
+
+            <div class="col-md-6 col-lg-4 mb-4">
+
+                <div class="project-card">
+
+                    <h3>
+                        Quiz Portal
+                    </h3>
+
+                    <p>
+                        Django-based quiz platform with authentication,
+                        quiz management, automated scoring and ranking.
+                    </p>
+
+                    <div class="tags">
+                        <span>Django</span>
+                        <span>Python</span>
+                        <span>SQLite</span>
+                        <span>Bootstrap</span>
+                    </div>
+
+                    <a
+                        href="https://quiz-portal-kq6a.onrender.com"
+                        target="_blank"
+                        class="btn btn-primary mt-3"
+                    >
+                        Live Demo
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Project 5 -->
+
+            <div class="col-md-6 col-lg-4 mb-4">
+
+                <div class="project-card">
+
+                    <h3>
+                        Job Portal
+                    </h3>
+
+                    <p>
+                        Django application connecting recruiters
+                        and job seekers with job applications,
+                        profiles and application tracking.
+                    </p>
+
+                    <div class="tags">
+                        <span>Django</span>
+                        <span>Python</span>
+                        <span>SQLite</span>
+                        <span>Bootstrap</span>
+                    </div>
+
+                    <a
+                        href="https://jobportal-21mx.onrender.com/"
+                        target="_blank"
+                        class="btn btn-primary mt-3"
+                    >
+                        Live Demo
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Project 6 -->
+
+            <div class="col-md-6 col-lg-4 mb-4">
+
+                <div class="project-card">
+
+                    <h3>
+                        Calory Counter
+                    </h3>
+
+                    <p>
+                        Django-based calorie counter and BMR management
+                        system that allows users to manage health profiles,
+                        calculate daily calorie requirements and track
+                        consumed calories.
+                    </p>
+
+                    <div class="tags">
+                        <span>Django</span>
+                        <span>Python</span>
+                        <span>PostgreSQL</span>
+                        <span>Bootstrap</span>
+                    </div>
+
+                    <a
+                        href="https://calorycounter-v8gr.onrender.com"
+                        target="_blank"
+                        class="btn btn-primary mt-3"
+                    >
+                        Live Demo
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Project 7 -->
+
+            <div class="col-md-6 col-lg-4 mb-4">
+
+                <div class="project-card">
+
+                    <h3>
+                        E-Commerce Website
+                    </h3>
+
+                    <p>
+                        Full-stack Django e-commerce application with
+                        separate Admin, Seller, and Customer roles.
+                        Sellers can manage products while customers
+                        can browse and purchase products.
+                    </p>
+
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Django</span>
+                        <span>SQLite</span>
+                        <span>Bootstrap</span>
+                    </div>
+
+                    <a
+                        href="https://e-commerce-main-zjq7.onrender.com"
+                        target="_blank"
+                        class="btn btn-primary mt-3"
+                    >
+                        Live Demo
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<!-- ================= RELEVANT COURSES ================= -->
+<section id="relevant-courses" class="py-5 bg-light">
+
+    <div class="container">
+
+        <h2 class="text-center mb-5">
+            Relevant Academic Courses
+        </h2>
+
+        <div class="row justify-content-center">
+
+            <!-- Course 1 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="course-card">
+                    <h5>Data Structures and Algorithms</h5>
+                </div>
+            </div>
+
+            <!-- Course 2 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="course-card">
+                    <h5>Database Management Systems</h5>
+                </div>
+            </div>
+
+            <!-- Course 3 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="course-card">
+                    <h5>Operating Systems</h5>
+                </div>
+            </div>
+
+            <!-- Course 4 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="course-card">
+                    <h5>Artificial Intelligence</h5>
+                </div>
+            </div>
+
+            <!-- Course 5 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="course-card">
+                    <h5>Machine Learning</h5>
+                </div>
+            </div>
+
+            <!-- Course 6 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="course-card">
+                    <h5>Software Engineering</h5>
+                </div>
+            </div>
+
+            <!-- Course 7 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="course-card">
+                    <h5>Algorithm Analysis</h5>
+                </div>
+            </div>
+
+            <!-- Course 8 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="course-card">
+                    <h5>Circuits and Electronics</h5>
+                </div>
+            </div>
+
+            <!-- Course 9 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="course-card">
+                    <h5>Data Science: Coding with Real-World Data</h5>
+                </div>
+            </div>
+
+            <!-- Course 10 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="course-card">
+                    <h5>Compiler Design</h5>
+                </div>
+            </div>
+
+            <!-- Course 11 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="course-card">
+                    <h5>VLSI Design</h5>
+                </div>
+            </div>
+
+            <!-- Course 12 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="course-card">
+                    <h5>Image Processing</h5>
+                </div>
+            </div>
+
+            <!-- Course 13 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="course-card">
+                    <h5>Introduction to Robotics</h5>
+                </div>
+            </div>
+
+            <!-- Course 14 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="course-card">
+                    <h5>Digital Logic Design</h5>
+                </div>
+            </div>
+
+            <!-- Course 15 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="course-card">
+                    <h5>Computer Architecture</h5>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CERTIFICATIONS ================= -->
+<section id="certifications" class="py-5">
+
+    <div class="container">
+
+        <h2 class="text-center mb-5">
+            Certifications
+        </h2>
+
+        <div class="row justify-content-center">
+
+            <!-- Certification 1 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="course-card">
+                    <h5>Understanding Data Science</h5>
+                </div>
+            </div>
+
+            <!-- Certification 2 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="course-card">
+                    <h5>Supervised Learning with scikit-learn</h5>
+                </div>
+            </div>
+
+            <!-- Certification 3 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="course-card">
+                    <h5>Cleaning Data in Python</h5>
+                </div>
+            </div>
+
+            <!-- Certification 4 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="course-card">
+                    <h5>Introduction to Deep Learning in Python</h5>
+                </div>
+            </div>
+
+            <!-- Certification 5 -->
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="course-card">
+                    <h5>Feature Engineering for Machine Learning in Python</h5>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="references">
+
+    <div class="container">
+
+        <h2 class="section-title">
+            References
+        </h2>
+
+        <div class="row g-4">
+
+            <!-- REFERENCE 1 -->
+            <div class="col-lg-6 col-md-6">
+
+                <div class="reference-card h-100">
+
+                    <div class="reference-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+
+                    <h4>Md. Shakil</h4>
+
+                    <h5>
+                        Sr. Backend Developer at Ethical Den
+                        <br>
+                        Associate Trainer at BASIS-SICIP
+                    </h5>
+
+                    <div class="reference-line"></div>
+
+                    <div class="reference-details">
+
+                        <p>
+                            <strong>Contact:</strong>
+                            +8801793299882
+                        </p>
+
+                        <p>
+                            <strong>Email:</strong>
+                            <a href="mailto:shakil.eub.cse@gmail.com">
+                                shakil.eub.cse@gmail.com
+                            </a>
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- REFERENCE 2 -->
+            <div class="col-lg-6 col-md-6">
+
+                <div class="reference-card h-100">
+
+                    <div class="reference-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+
+                    <h4>Rajesh Kumar Das</h4>
+
+                    <h5>
+                        Lead Trainer, DIPTI
+                    </h5>
+
+                    <div class="reference-line"></div>
+
+                    <div class="reference-details">
+
+                        <p>
+                            <strong>Contact:</strong>
+                            +8801862052815
+                        </p>
+
+                        <p>
+                            <strong>Email:</strong>
+                            <a href="mailto:rajeshcpi1212@gmail.com">
+                                rajeshcpi1212@gmail.com
+                            </a>
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="py-5 bg-light">
+
+     <div class="container">
+
+        <h1 class="section-title text-center">
+            Contact Me
+        </h1>
+
+        <div class="row mt-5">
+
+            <div class="col-md-6 mx-auto">
+
+                <div class="contact-card">
+
+                    <h3>
+                        Let's Work Together
+                    </h3>
+
+                    <p class="mt-3">
+                        Feel free to contact me for internship,
+                        software development or backend development
+                        opportunities.
+                    </p>
+
+
+                    <hr>
+
+
+                    <p>
+                        <strong>Email:</strong>
+                        samizaman987@gmail.com
+                    </p>
+
+                    <p>
+                        <strong>Phone:</strong>
+                        01952806333
+                    </p>
+
+
+                    <div class="mt-4">
+
+                        <a
+                            href="mailto:samizaman987@gmail.com"
+                            class="btn btn-primary"
+                        >
+                            Email Me
+                        </a>
+
+                        <a
+                            href="https://github.com/Mohammad-Sami-Zaman"
+                            target="_blank"
+                            class="btn btn-dark"
+                        >
+                            GitHub
+                        </a>
+
+                        <a
+                            href="https://www.linkedin.com/in/sami-zaman-0b714a358"
+                            target="_blank"
+                            class="btn btn-primary"
+                        >
+                            LinkedIn
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+{% endblock %}
